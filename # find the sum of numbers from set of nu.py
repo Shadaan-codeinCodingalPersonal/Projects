@@ -42,5 +42,5 @@ target = int(input("The target sum is: "))
 
 # Find combinations
 combinations = find_combinations(inputarray, target)
-print("Combinations that sum to the target and have a total sum less than 4500:")
+print("Combinations that sum to the target and have a total sum less than", target, ":")
 print(combinations)
